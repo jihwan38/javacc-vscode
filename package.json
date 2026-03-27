@@ -1,0 +1,30 @@
+{
+  "name": "javacc",
+  "displayName": "JavaCC",
+  "description": "Syntax highlighting and language support for JavaCC (.jj, .jjt)",
+  "version": "0.0.1",
+  "publisher": "my-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "javacc",
+        "aliases": ["JavaCC", "javacc"],
+        "extensions": [".jj", ".jjt"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "javacc",
+        "scopeName": "source.javacc",
+        "path": "./syntaxes/javacc.tmLanguage.json"
+      }
+    ]
+  }
+}
