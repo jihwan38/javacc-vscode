@@ -1,0 +1,17 @@
+// SYNTAX TEST "source.javacc" "Options block test"
+
+options {
+// ^^^^^^^ keyword.other.options.javacc
+//        ^ punctuation.section.options.begin.javacc
+  STATIC = false;
+// ^^^^^^ support.constant.javacc
+//       ^ keyword.operator.assignment.javacc
+//         ^^^^^ constant.language.boolean.false.javacc
+//              ^ punctuation.terminator.javacc
+  DEBUG_PARSER = true;
+// ^^^^^^^^^^^^ support.constant.javacc
+//             ^ keyword.operator.assignment.javacc
+//               ^^^^ constant.language.boolean.true.javacc
+//                   ^ punctuation.terminator.javacc
+}
+// ^ punctuation.section.options.end.javacc
