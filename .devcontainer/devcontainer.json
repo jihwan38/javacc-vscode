@@ -1,0 +1,13 @@
+{
+  "name": "JavaCC Extension Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": []
+    }
+  },
+  "remoteUser": "node"
+}
