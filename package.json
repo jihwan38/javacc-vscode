@@ -10,6 +10,12 @@
   "categories": [
     "Programming Languages"
   ],
+  "scripts": {
+    "test": "vscode-tmgrammar-test"
+  },
+  "devDependencies": {
+    "vscode-tmgrammar-test": "^0.1.1"
+  },
   "contributes": {
     "languages": [
       {
