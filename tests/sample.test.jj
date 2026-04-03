@@ -1,3 +1,4 @@
+// SYNTAX TEST "source.javacc" "Basic JavaCC test"
 options {
   STATIC = false;
   DEBUG_PARSER = true;

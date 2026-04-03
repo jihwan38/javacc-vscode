@@ -11,7 +11,7 @@
     "Programming Languages"
   ],
   "scripts": {
-    "test": "vscode-tmgrammar-test"
+    "test": "vscode-tmgrammar-test -g syntaxes/javacc.tmLanguage.json \"tests/**/*.test.jj\""
   },
   "devDependencies": {
     "vscode-tmgrammar-test": "^0.1.1"
